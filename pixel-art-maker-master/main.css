@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+.grid2x2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+.grid2x2 > div {
+    display: flex; 
+    flex-basis: calc(50% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+  }
+.grid2x2 > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  } 
+  .red-button {
+    background-color: red;
+    color:white;
+  }
+  .green-button {
+    background-color: green;
+    color: white;
+  } 
+  .blue-button {
+      background-color: blue;
+      color: white;
+  }
+  .orange-button {
+      background-color: orange;
+      color: white;
+  }
+ 
+  
